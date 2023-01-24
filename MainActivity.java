@@ -99,8 +99,6 @@ public class MainActivity extends RobotActivity {
         EventBus.getDefault().register(this);
         initData();
         setContentView(R.layout.activity_main);
-//        mContent = findViewById(R.id.content);
-//        ButterKnife.bind(this);
         initWindow();
         initView();
 
