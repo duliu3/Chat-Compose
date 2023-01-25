@@ -21,11 +21,5 @@ public class EmptyAvtivity extends Activity {
         setContentView(R.layout.empty);
         startService(new Intent(this, UnityService.class));
     }
-
-//    @Override
-//    public void onWindowFocusChanged(boolean hasFocus) {
-//        if (hasFocus) {
-//            startService(new Intent(this, UnityService.class));
-//        }
-//    }
+、
 }
