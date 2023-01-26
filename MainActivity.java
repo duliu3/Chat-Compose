@@ -197,7 +197,7 @@ public class MainActivity extends RobotActivity {
             UIUtils.postTaskSafely(new Runnable() {
                 @Override
                 public void run() {
-                    sendTextToVoice(messageEvent.text);
+                   
                 }
             });
         }
