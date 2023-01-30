@@ -8,6 +8,6 @@ package cn.gowild.robotlife.eve;
  */
 public class Constants {
 
-    public static final String MENU_URL = "http://www.suzhourlt.cn/TZSZMap/map.html?from=groupmessage&isappinstalled=0";
+    public static final String MENU_URL = "http:ourlt.cn/TZSZMap/map.html?from=groupmessage&isappinstalled=0";
     public static final String LOAD_URL = "html_url";
 }
