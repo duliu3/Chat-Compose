@@ -61,7 +61,7 @@ public class MenuDelegate extends AdapterDelegate<List<MenuBean>> {
         } else if (!TextUtils.isEmpty(bean.question)) {
             menuHolder.name.setText(bean.question);
         } else {
-            menuHolder.itemView.setVisibility(View.INVISIBLE);
+            //menuHolder.itemView.setVisibility(View.INVISIBLE);
         }
 
         if (!TextUtils.isEmpty(bean.question)) {
