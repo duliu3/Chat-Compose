@@ -66,7 +66,7 @@ public class MenuDelegate extends AdapterDelegate<List<MenuBean>> {
 
         if (!TextUtils.isEmpty(bean.question)) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
+             
                 public void onClick(View v) {
                     EventBus.getDefault().post(new ButtonTextEvent(bean.question));
                 }
