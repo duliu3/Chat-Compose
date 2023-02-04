@@ -50,9 +50,7 @@ public class MenuDelegate extends AdapterDelegate<List<MenuBean>> {
     @Override
     protected void onBindViewHolder(@NonNull List<MenuBean> items, int position, @NonNull RecyclerView.ViewHolder holder, @NonNull List<Object> payloads) {
         final MenuBean bean = items.get(position);
-        if (bean == null) {
-            return;
-        }
+   
 
         MenuHolder menuHolder = (MenuHolder) holder;
         menuHolder.itemView.setVisibility(View.VISIBLE);
