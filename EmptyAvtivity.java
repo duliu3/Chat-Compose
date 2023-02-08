@@ -18,7 +18,7 @@ public class EmptyAvtivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.empty);
+        
         startService(new Intent(this, UnityService.class));
     }
 、
